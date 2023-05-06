@@ -419,7 +419,7 @@ img {
 }
 
 .work__title {
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   font-weight: bold;
   text-align: center;
   margin: 0;
@@ -427,6 +427,7 @@ img {
 
 /* ===== CONTACT =====*/
 .contact__input {
+  display: block;
   width: 100%;
   font-size: var(--normal-font-size);
   font-weight: var(--font-semi);
@@ -435,6 +436,13 @@ img {
   border: 1.5px solid var(--second-color);
   outline: none;
   margin-bottom: var(--mb-4);
+  transition: border-color 0.35s ease-in-out, box-shadow 0.35s ease-in-out;
+}
+
+.contact__input:focus {
+  outline: none;
+  border-color: rgba(86, 101, 174, 0.25);
+  box-shadow: 0 0 0 0.2rem rgba(86, 101, 174, 0.25);
 }
 
 .contact__button {

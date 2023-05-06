@@ -223,6 +223,22 @@ img {
   color: var(--first-color);
 }
 
+.home__cv-link {
+  color: black;
+  font-weight: bold;
+  margin-left: 1.3em;
+  vertical-align: middle;
+}
+
+.home__cv-icon {
+  font-size: 1.3rem;
+  vertical-align: middle;
+}
+
+.home__cv-link:hover {
+  color: var(--first-color);
+}
+
 .home__img {
   position: absolute;
   right: 0;
@@ -491,6 +507,21 @@ img {
     width: 200px;
   }
 }
+
+@media screen and (max-width: 340px) {
+  .home__cv-link {
+    margin-top: 0.6em;
+    margin-left: 0.43em;
+    display: block;
+    text-align: left;
+  }
+
+  .home__cv-icon {
+    display: block;
+    margin: 0 auto;
+  }
+}
+
 
 @media screen and (min-width: 576px) {
   .home {

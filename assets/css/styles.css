@@ -405,7 +405,7 @@ img {
   box-shadow: 0px 4px 25px rgba(14, 36, 49, 0.15);
   border-radius: .5rem;
   overflow: hidden;
-  filter: brightness(0.7);
+  filter: brightness(0.9);
 }
 
 .work__img img {
